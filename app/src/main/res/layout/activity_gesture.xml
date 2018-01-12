@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rushro2m.gaodemap.GestureActivity">
+
+    <com.amap.api.maps.MapView
+        android:id="@+id/gestureMap"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#D999"
+        android:paddingRight="5dp"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:layout_weight="1"
+            android:id="@+id/scroll_gesture_toggle"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:checked="true"
+            android:text="滑动手势" />
+        <CheckBox
+            android:layout_weight="1"
+            android:id="@+id/zoom_gesture_toggle"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:checked="true"
+            android:text="缩放手势" />
+        <CheckBox
+            android:layout_weight="1"
+            android:id="@+id/tilt_gesture_toggle"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:checked="true"
+            android:text="倾斜手势" />
+        <CheckBox
+            android:layout_weight="1"
+            android:id="@+id/rotate_gesture_toggle"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:checked="true"
+            android:text="旋转手势" />
+    </LinearLayout>
+</RelativeLayout>

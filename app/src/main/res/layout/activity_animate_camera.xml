@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.rushro2m.gaodemap.AnimateCameraActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/title_background"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/stop_animation"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="@string/stop_animation" />
+
+            <ToggleButton
+                android:id="@+id/animate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:textOff="@string/animate"
+                android:textOn="@string/animate" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/ljz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/go_to_lujiazui" />
+
+            <Button
+                android:id="@+id/zgc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/go_to_zhongguancun" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/scroll_left"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/left_arrow" />
+
+            <Button
+                android:id="@+id/scroll_up"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@id/scroll_left"
+                android:text="@string/up_arrow" />
+
+            <Button
+                android:id="@+id/scroll_down"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:layout_below="@id/scroll_up"
+                android:layout_toRightOf="@id/scroll_left"
+                android:text="@string/down_arrow" />
+
+            <Button
+                android:id="@+id/scroll_right"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/scroll_down"
+                android:text="@string/right_arrow" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <com.amap.api.maps.MapView
+        android:id="@+id/animateMap"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
