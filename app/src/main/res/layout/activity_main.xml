@@ -156,6 +156,14 @@
                 android:padding="3dp"
                 android:text="地图截屏功能"
                 android:textSize="16sp" />
+            <Button
+                android:id="@+id/minMaxZoomMap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="mapMethod"
+                android:padding="3dp"
+                android:text="限制缩放级别功能"
+                android:textSize="16sp" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

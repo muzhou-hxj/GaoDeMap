@@ -63,9 +63,10 @@
         <activity android:name=".mapinteraction.AnimateCameraActivity" />
         <activity android:name=".mapinteraction.ZoomActivity" />
         <activity
+            android:name=".mapinteraction.ScreenShotActivity"
             android:label="@string/screenshot_demo"
-            android:screenOrientation="portrait"
-            android:name=".mapinteraction.ScreenShotActivity"/>
+            android:screenOrientation="portrait" />
+        <activity android:name=".mapinteraction.MinMaxZoomActivity"></activity>
     </application>
 
 </manifest>

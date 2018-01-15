@@ -16,6 +16,7 @@ import com.rushro2m.gaodemap.mapinteraction.EventsActivity;
 import com.rushro2m.gaodemap.mapinteraction.GestureActivity;
 import com.rushro2m.gaodemap.mapinteraction.LayersActivity;
 import com.rushro2m.gaodemap.mapinteraction.LogoActivity;
+import com.rushro2m.gaodemap.mapinteraction.MinMaxZoomActivity;
 import com.rushro2m.gaodemap.mapinteraction.PoiClickActivity;
 import com.rushro2m.gaodemap.mapinteraction.ScreenShotActivity;
 import com.rushro2m.gaodemap.mapinteraction.UISettingActivity;
@@ -89,6 +90,10 @@ public class MainActivity extends AppCompatActivity {
 
             case R.id.screenShotMap://地图截屏功能
                 startActivity(new Intent(this, ScreenShotActivity.class));
+                break;
+
+            case R.id.minMaxZoomMap://地图截屏功能
+                startActivity(new Intent(this, MinMaxZoomActivity.class));
                 break;
         }
     }
