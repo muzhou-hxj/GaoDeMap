@@ -190,6 +190,7 @@
                 android:padding="3dp"
                 android:text="Marker功能"
                 android:textSize="16sp" />
+
             <Button
                 android:id="@+id/markerClickMap"
                 android:layout_width="match_parent"
@@ -198,6 +199,7 @@
                 android:padding="3dp"
                 android:text="Marker点击回调功能"
                 android:textSize="16sp" />
+
             <Button
                 android:id="@+id/markerAnimationMap"
                 android:layout_width="match_parent"
@@ -205,6 +207,15 @@
                 android:onClick="mapMethod"
                 android:padding="3dp"
                 android:text="Marker动画功能"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/infoWindowMap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="mapMethod"
+                android:padding="3dp"
+                android:text="InfoWindow功能"
                 android:textSize="16sp" />
         </LinearLayout>
     </ScrollView>

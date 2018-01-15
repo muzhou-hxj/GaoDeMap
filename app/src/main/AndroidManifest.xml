@@ -76,7 +76,8 @@
             android:screenOrientation="portrait" />
         <activity android:name=".mapmarker.MarkerActivity" />
         <activity android:name=".mapmarker.MarkerClickActivity" />
-        <activity android:name=".mapmarker.MarkerAnimationActivity"></activity>
+        <activity android:name=".mapmarker.MarkerAnimationActivity" />
+        <activity android:name=".mapmarker.InfoWindowActivity"></activity>
     </application>
 
 </manifest>
