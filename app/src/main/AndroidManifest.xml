@@ -34,34 +34,34 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ShowMapActivity"
+            android:name=".createmap.ShowMapActivity"
             android:label="显示地图" />
         <activity
-            android:name=".MoreMapActivity"
+            android:name=".createmap.MoreMapActivity"
             android:label="多地图实例" />
         <activity
-            android:name=".indoor.RoomMapActivity"
+            android:name=".createmap.indoor.RoomMapActivity"
             android:label="室内地图功能" />
         <activity
-            android:name=".MapOptionActivity"
+            android:name=".createmap.MapOptionActivity"
             android:label="Option实现地图" />
         <activity
-            android:name=".UISettingActivity"
+            android:name=".mapinteraction.UISettingActivity"
             android:label="UiSetting功能" />
         <activity
-            android:name=".LogoActivity"
+            android:name=".mapinteraction.LogoActivity"
             android:label="地图Logo位置" />
         <activity
-            android:name=".LayersActivity"
+            android:name=".mapinteraction.LayersActivity"
             android:label="Layers图层功能" />
         <activity
-            android:name=".GestureActivity"
+            android:name=".mapinteraction.GestureActivity"
             android:label="手势交互" />
-        <activity android:name=".EventsActivity" />
-        <activity android:name=".PoiClickActivity" />
-        <activity android:name=".CameraActivity" />
-        <activity android:name=".AnimateCameraActivity" />
-        <activity android:name=".ZoomActivity"></activity>
+        <activity android:name=".mapinteraction.EventsActivity" />
+        <activity android:name=".mapinteraction.PoiClickActivity" />
+        <activity android:name=".mapinteraction.CameraActivity" />
+        <activity android:name=".mapinteraction.AnimateCameraActivity" />
+        <activity android:name=".mapinteraction.ZoomActivity"></activity>
     </application>
 
 </manifest>

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.rushro2m.gaodemap.EventsActivity">
+    tools:context="com.rushro2m.gaodemap.mapinteraction.EventsActivity">
 
     <TextView
         android:id="@+id/tap_text"

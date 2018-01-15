@@ -1,4 +1,4 @@
-package com.rushro2m.gaodemap;
+package com.rushro2m.gaodemap.createmap;
 
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
@@ -8,6 +8,7 @@ import com.amap.api.maps.AMap;
 import com.amap.api.maps.AMapOptions;
 import com.amap.api.maps.SupportMapFragment;
 import com.amap.api.maps.model.CameraPosition;
+import com.rushro2m.gaodemap.utils.Constants;
 
 /**
  * Created by 16918 on 2018/1/11.

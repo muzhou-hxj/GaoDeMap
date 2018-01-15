@@ -1,4 +1,4 @@
-package com.rushro2m.gaodemap;
+package com.rushro2m.gaodemap.utils;
 
 import com.amap.api.maps.model.LatLng;
 
@@ -6,7 +6,7 @@ import com.amap.api.maps.model.LatLng;
  * Created by 16918 on 2018/1/11.
  */
 
-class Constants {
+public class Constants {
     public static final int ERROR = 1001;// 网络异常
     public static final int ROUTE_START_SEARCH = 2000;
     public static final int ROUTE_END_SEARCH = 2001;

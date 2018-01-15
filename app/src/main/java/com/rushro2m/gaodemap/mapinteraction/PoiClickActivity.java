@@ -1,4 +1,4 @@
-package com.rushro2m.gaodemap;
+package com.rushro2m.gaodemap.mapinteraction;
 
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
@@ -16,6 +16,7 @@ import com.amap.api.maps.model.Marker;
 import com.amap.api.maps.model.MarkerOptions;
 import com.amap.api.maps.model.NaviPara;
 import com.amap.api.maps.model.Poi;
+import com.rushro2m.gaodemap.R;
 
 public class PoiClickActivity extends AppCompatActivity implements AMap.OnPOIClickListener, AMap.OnMarkerClickListener {
 

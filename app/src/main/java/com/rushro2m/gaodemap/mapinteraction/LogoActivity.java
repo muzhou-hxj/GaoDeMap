@@ -1,4 +1,4 @@
-package com.rushro2m.gaodemap;
+package com.rushro2m.gaodemap.mapinteraction;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -8,6 +8,7 @@ import com.amap.api.maps.AMap;
 import com.amap.api.maps.AMapOptions;
 import com.amap.api.maps.MapView;
 import com.amap.api.maps.UiSettings;
+import com.rushro2m.gaodemap.R;
 
 public class LogoActivity extends AppCompatActivity implements RadioGroup.OnCheckedChangeListener {
 

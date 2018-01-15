@@ -1,4 +1,4 @@
-package com.rushro2m.gaodemap;
+package com.rushro2m.gaodemap.mapinteraction;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -8,6 +8,7 @@ import android.widget.CheckBox;
 import com.amap.api.maps.AMap;
 import com.amap.api.maps.MapView;
 import com.amap.api.maps.model.MyTrafficStyle;
+import com.rushro2m.gaodemap.R;
 
 public class LayersActivity extends AppCompatActivity implements View.OnClickListener {
 

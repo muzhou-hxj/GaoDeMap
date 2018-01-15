@@ -1,6 +1,5 @@
-package com.rushro2m.gaodemap.indoor;
+package com.rushro2m.gaodemap.createmap.indoor;
 
-import android.annotation.SuppressLint;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

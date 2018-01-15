@@ -1,4 +1,4 @@
-package com.rushro2m.gaodemap;
+package com.rushro2m.gaodemap.createmap;
 
 import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
@@ -10,6 +10,7 @@ import android.widget.CompoundButton;
 
 import com.amap.api.maps.AMap;
 import com.amap.api.maps.MapView;
+import com.rushro2m.gaodemap.R;
 
 import java.io.File;
 import java.io.FileOutputStream;

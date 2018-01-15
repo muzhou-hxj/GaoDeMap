@@ -5,7 +5,19 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-import com.rushro2m.gaodemap.indoor.RoomMapActivity;
+import com.rushro2m.gaodemap.createmap.MapOptionActivity;
+import com.rushro2m.gaodemap.createmap.MoreMapActivity;
+import com.rushro2m.gaodemap.createmap.ShowMapActivity;
+import com.rushro2m.gaodemap.createmap.indoor.RoomMapActivity;
+import com.rushro2m.gaodemap.mapinteraction.AnimateCameraActivity;
+import com.rushro2m.gaodemap.mapinteraction.CameraActivity;
+import com.rushro2m.gaodemap.mapinteraction.EventsActivity;
+import com.rushro2m.gaodemap.mapinteraction.GestureActivity;
+import com.rushro2m.gaodemap.mapinteraction.LayersActivity;
+import com.rushro2m.gaodemap.mapinteraction.LogoActivity;
+import com.rushro2m.gaodemap.mapinteraction.PoiClickActivity;
+import com.rushro2m.gaodemap.mapinteraction.UISettingActivity;
+import com.rushro2m.gaodemap.mapinteraction.ZoomActivity;
 
 public class MainActivity extends AppCompatActivity {
 

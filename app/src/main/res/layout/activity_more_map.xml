@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.rushro2m.gaodemap.MoreMapActivity">
+    tools:context="com.rushro2m.gaodemap.createmap.MoreMapActivity">
 
     <com.amap.api.maps.MapView
         android:id="@+id/map_more_1"

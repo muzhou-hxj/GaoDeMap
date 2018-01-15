@@ -1,4 +1,4 @@
-package com.rushro2m.gaodemap;
+package com.rushro2m.gaodemap.mapinteraction;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -12,6 +12,8 @@ import com.amap.api.maps.model.CameraPosition;
 import com.amap.api.maps.model.LatLng;
 import com.amap.api.maps.model.LatLngBounds;
 import com.amap.api.maps.model.VisibleRegion;
+import com.rushro2m.gaodemap.R;
+import com.rushro2m.gaodemap.utils.Constants;
 
 public class EventsActivity extends AppCompatActivity implements AMap.OnMapClickListener, AMap.OnMapLongClickListener, AMap.OnCameraChangeListener, AMap.OnMapTouchListener {
 

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.rushro2m.gaodemap.indoor.RoomMapActivity">
+    tools:context=".createmap.indoor.RoomMapActivity">
 
     <com.amap.api.maps.MapView
         android:id="@+id/snMap"
@@ -15,7 +15,7 @@
         android:layout_width="wrap_content"
         android:layout_height="200dp">
 
-        <com.rushro2m.gaodemap.indoor.IndoorFloorSwitchView
+        <com.rushro2m.gaodemap.createmap.indoor.IndoorFloorSwitchView
             android:id="@+id/indoor_switchView"
             android:layout_width="wrap_content"
             android:layout_height="200dp" />
