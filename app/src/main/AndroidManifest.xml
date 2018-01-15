@@ -66,7 +66,14 @@
             android:name=".mapinteraction.ScreenShotActivity"
             android:label="@string/screenshot_demo"
             android:screenOrientation="portrait" />
-        <activity android:name=".mapinteraction.MinMaxZoomActivity"></activity>
+        <activity
+            android:name=".mapinteraction.MinMaxZoomActivity"
+            android:label="设置缩放级别功能"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mapinteraction.LimitBoundsActivity"
+            android:label="限制显示区域功能"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

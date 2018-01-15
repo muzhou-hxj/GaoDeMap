@@ -164,6 +164,14 @@
                 android:padding="3dp"
                 android:text="限制缩放级别功能"
                 android:textSize="16sp" />
+            <Button
+                android:id="@+id/limitBoundsMap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="mapMethod"
+                android:padding="3dp"
+                android:text="限制显示区域功能"
+                android:textSize="16sp" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
