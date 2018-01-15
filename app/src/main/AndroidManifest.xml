@@ -75,7 +75,8 @@
             android:label="限制显示区域功能"
             android:screenOrientation="portrait" />
         <activity android:name=".mapmarker.MarkerActivity" />
-        <activity android:name=".mapmarker.MarkerClickActivity"></activity>
+        <activity android:name=".mapmarker.MarkerClickActivity" />
+        <activity android:name=".mapmarker.MarkerAnimationActivity"></activity>
     </application>
 
 </manifest>

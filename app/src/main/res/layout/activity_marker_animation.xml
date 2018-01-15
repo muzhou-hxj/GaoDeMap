@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    android:orientation="vertical"
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.rushro2m.gaodemap.mapmarker.MarkerClickActivity">
+    android:orientation="vertical"
+    tools:context="com.rushro2m.gaodemap.mapmarker.MarkerAnimationActivity">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/marker_clear"
+            android:id="@+id/marker_grow"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Clear" />
+            android:text="生长动画" />
 
         <Button
-            android:id="@+id/marker_reset"
+            android:id="@+id/marker_jump"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Reset" />
+            android:text="移动动画" />
     </LinearLayout>
 
     <com.amap.api.maps.MapView
-        android:id="@+id/markerClickMap"
+        android:id="@+id/markerAnimationMap"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </LinearLayout>
