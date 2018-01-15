@@ -1,4 +1,4 @@
-package com.rushro2m.gaodemap;
+package com.rushro2m.gaodemap.mapinteraction;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -10,6 +10,7 @@ import com.amap.api.maps.AMap;
 import com.amap.api.maps.CameraUpdate;
 import com.amap.api.maps.CameraUpdateFactory;
 import com.amap.api.maps.MapView;
+import com.rushro2m.gaodemap.R;
 
 public class ZoomActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -44,6 +45,10 @@ public class ZoomActivity extends AppCompatActivity implements View.OnClickListe
 
     }
 
+    /**
+     * @param update：描述地图状态将要发生的改变
+     * @param callback：来监听update是否执行完成或者中断
+     */
     private void changeCamera(CameraUpdate update, AMap.CancelableCallback callback) {
         boolean isAnimate = animate.isChecked();
         if (isAnimate) {
@@ -52,7 +57,6 @@ public class ZoomActivity extends AppCompatActivity implements View.OnClickListe
             aMap.moveCamera(update);
         }
     }
-
 
 
     /**
@@ -91,15 +95,19 @@ public class ZoomActivity extends AppCompatActivity implements View.OnClickListe
         mapView.onDestroy();
     }
 
+    /**
+     * zoomIn()：放大地图缩放级别，在当前地图显示的级别基础上加1
+     * zoomOut():  缩小地图缩放级别，在当前地图显示的级别基础上减1
+     */
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.zoom_in:
-                changeCamera(CameraUpdateFactory.zoomIn(),null);
+                changeCamera(CameraUpdateFactory.zoomIn(), null);
                 break;
 
             case R.id.zoom_out:
-                changeCamera(CameraUpdateFactory.zoomOut(),null);
+                changeCamera(CameraUpdateFactory.zoomOut(), null);
                 break;
         }
     }

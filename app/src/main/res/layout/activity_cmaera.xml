@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.rushro2m.gaodemap.CameraActivity">
+    tools:context="com.rushro2m.gaodemap.mapinteraction.CameraActivity">
 
     <LinearLayout
         android:layout_width="match_parent"

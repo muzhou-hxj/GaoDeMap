@@ -8,6 +8,7 @@ import android.view.View;
 import com.rushro2m.gaodemap.createmap.MapOptionActivity;
 import com.rushro2m.gaodemap.createmap.MoreMapActivity;
 import com.rushro2m.gaodemap.createmap.ShowMapActivity;
+
 import com.rushro2m.gaodemap.createmap.indoor.RoomMapActivity;
 import com.rushro2m.gaodemap.mapinteraction.AnimateCameraActivity;
 import com.rushro2m.gaodemap.mapinteraction.CameraActivity;
@@ -66,23 +67,23 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(this, GestureActivity.class));
                 break;
 
-            case R.id.eventsMap://手势交互功能
+            case R.id.eventsMap://Events功能
                 startActivity(new Intent(this, EventsActivity.class));
                 break;
 
-            case R.id.poiClickMap://手势交互功能
+            case R.id.poiClickMap://地图POI点击功能
                 startActivity(new Intent(this, PoiClickActivity.class));
                 break;
 
-            case R.id.cameraMap://手势交互功能
+            case R.id.cameraMap://改变地图中心点功能
                 startActivity(new Intent(this, CameraActivity.class));
                 break;
 
-            case R.id.animateMap://手势交互功能
+            case R.id.animateMap://地图动画效果
                 startActivity(new Intent(this, AnimateCameraActivity.class));
                 break;
 
-            case R.id.zoomMap://手势交互功能
+            case R.id.zoomMap://自定义缩放功能
                 startActivity(new Intent(this, ZoomActivity.class));
                 break;
         }
