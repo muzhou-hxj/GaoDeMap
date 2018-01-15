@@ -23,6 +23,7 @@ import com.rushro2m.gaodemap.mapinteraction.ScreenShotActivity;
 import com.rushro2m.gaodemap.mapinteraction.UISettingActivity;
 import com.rushro2m.gaodemap.mapinteraction.ZoomActivity;
 import com.rushro2m.gaodemap.mapmarker.MarkerActivity;
+import com.rushro2m.gaodemap.mapmarker.MarkerClickActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -104,6 +105,10 @@ public class MainActivity extends AppCompatActivity {
 
             case R.id.markerMap://marker功能
                 startActivity(new Intent(this, MarkerActivity.class));
+                break;
+
+            case R.id.markerClickMap://marker点击功能
+                startActivity(new Intent(this, MarkerClickActivity.class));
                 break;
         }
     }
