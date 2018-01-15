@@ -1,4 +1,4 @@
-package com.rushro2m.gaodemap.createmap.indoor;
+package com.rushro2m.gaodemap.mapcreate.indoor;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;

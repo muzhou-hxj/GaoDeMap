@@ -5,11 +5,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-import com.rushro2m.gaodemap.createmap.MapOptionActivity;
-import com.rushro2m.gaodemap.createmap.MoreMapActivity;
-import com.rushro2m.gaodemap.createmap.ShowMapActivity;
+import com.rushro2m.gaodemap.mapcreate.MapOptionActivity;
+import com.rushro2m.gaodemap.mapcreate.MoreMapActivity;
+import com.rushro2m.gaodemap.mapcreate.ShowMapActivity;
 
-import com.rushro2m.gaodemap.createmap.indoor.RoomMapActivity;
+import com.rushro2m.gaodemap.mapcreate.indoor.RoomMapActivity;
 import com.rushro2m.gaodemap.mapinteraction.AnimateCameraActivity;
 import com.rushro2m.gaodemap.mapinteraction.CameraActivity;
 import com.rushro2m.gaodemap.mapinteraction.EventsActivity;
@@ -22,6 +22,7 @@ import com.rushro2m.gaodemap.mapinteraction.PoiClickActivity;
 import com.rushro2m.gaodemap.mapinteraction.ScreenShotActivity;
 import com.rushro2m.gaodemap.mapinteraction.UISettingActivity;
 import com.rushro2m.gaodemap.mapinteraction.ZoomActivity;
+import com.rushro2m.gaodemap.mapmarker.MarkerActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -93,12 +94,16 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(this, ScreenShotActivity.class));
                 break;
 
-            case R.id.minMaxZoomMap://地图截屏功能
+            case R.id.minMaxZoomMap://限制缩放级别功能
                 startActivity(new Intent(this, MinMaxZoomActivity.class));
                 break;
 
-            case R.id.limitBoundsMap://地图截屏功能
+            case R.id.limitBoundsMap://限制显示区域功能
                 startActivity(new Intent(this, LimitBoundsActivity.class));
+                break;
+
+            case R.id.markerMap://marker功能
+                startActivity(new Intent(this, MarkerActivity.class));
                 break;
         }
     }

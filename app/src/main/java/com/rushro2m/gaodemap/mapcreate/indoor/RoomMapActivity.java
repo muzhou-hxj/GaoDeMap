@@ -1,4 +1,4 @@
-package com.rushro2m.gaodemap.createmap.indoor;
+package com.rushro2m.gaodemap.mapcreate.indoor;
 
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;

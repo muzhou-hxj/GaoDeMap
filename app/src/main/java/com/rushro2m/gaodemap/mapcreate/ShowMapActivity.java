@@ -1,4 +1,4 @@
-package com.rushro2m.gaodemap.createmap;
+package com.rushro2m.gaodemap.mapcreate;
 
 import android.content.Context;
 import android.support.v7.app.AppCompatActivity;

@@ -1,4 +1,4 @@
-package com.rushro2m.gaodemap.createmap;
+package com.rushro2m.gaodemap.mapcreate;
 
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
