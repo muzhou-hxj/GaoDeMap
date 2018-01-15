@@ -17,6 +17,7 @@ import com.rushro2m.gaodemap.mapinteraction.GestureActivity;
 import com.rushro2m.gaodemap.mapinteraction.LayersActivity;
 import com.rushro2m.gaodemap.mapinteraction.LogoActivity;
 import com.rushro2m.gaodemap.mapinteraction.PoiClickActivity;
+import com.rushro2m.gaodemap.mapinteraction.ScreenShotActivity;
 import com.rushro2m.gaodemap.mapinteraction.UISettingActivity;
 import com.rushro2m.gaodemap.mapinteraction.ZoomActivity;
 
@@ -54,7 +55,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(this, UISettingActivity.class));
                 break;
 
-
             case R.id.logoMap://Logo位置
                 startActivity(new Intent(this, LogoActivity.class));
                 break;
@@ -85,6 +85,10 @@ public class MainActivity extends AppCompatActivity {
 
             case R.id.zoomMap://自定义缩放功能
                 startActivity(new Intent(this, ZoomActivity.class));
+                break;
+
+            case R.id.screenShotMap://地图截屏功能
+                startActivity(new Intent(this, ScreenShotActivity.class));
                 break;
         }
     }
