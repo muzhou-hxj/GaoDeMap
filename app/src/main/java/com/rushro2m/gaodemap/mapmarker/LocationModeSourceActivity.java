@@ -69,6 +69,7 @@ public class LocationModeSourceActivity extends AppCompatActivity implements AMa
     public void onMyLocationChange(Location location) {
         if (location != null) {
             Bundle bundle = location.getExtras();
+
             if (bundle != null) {
                 int errorCode = bundle.getInt(MyLocationStyle.ERROR_CODE);
                 String errorInfo = bundle.getString(MyLocationStyle.ERROR_INFO);

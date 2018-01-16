@@ -30,6 +30,7 @@ import com.rushro2m.gaodemap.mapinteraction.PoiClickActivity;
 import com.rushro2m.gaodemap.mapinteraction.ScreenShotActivity;
 import com.rushro2m.gaodemap.mapinteraction.UISettingActivity;
 import com.rushro2m.gaodemap.mapinteraction.ZoomActivity;
+import com.rushro2m.gaodemap.mapmarker.CustomLocationActivity;
 import com.rushro2m.gaodemap.mapmarker.InfoWindowActivity;
 import com.rushro2m.gaodemap.mapmarker.LocationModeSourceActivity;
 import com.rushro2m.gaodemap.mapmarker.LocationModeSourceActivity_Old;
@@ -269,6 +270,10 @@ public class MainActivity extends AppCompatActivity {
 
             case R.id.locationMap://5.0.0之后的Location实现
                 startActivity(new Intent(this, LocationModeSourceActivity.class));
+                break;
+
+            case R.id.customLocationMap://Location小蓝点自定义功能
+                startActivity(new Intent(this, CustomLocationActivity.class));
                 break;
         }
     }

@@ -93,7 +93,8 @@
 
         <service android:name="com.amap.api.location.APSService" />
 
-        <activity android:name=".mapmarker.LocationModeSourceActivity"></activity>
+        <activity android:name=".mapmarker.LocationModeSourceActivity" />
+        <activity android:name=".mapmarker.CustomLocationActivity"></activity>
     </application>
 
 </manifest>
