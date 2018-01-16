@@ -226,6 +226,14 @@
                 android:padding="3dp"
                 android:text="5.0.0之前的Location实现模式"
                 android:textSize="16sp" />
+            <Button
+                android:id="@+id/locationMap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="mapMethod"
+                android:padding="3dp"
+                android:text="5.0.0之后的Location实现模式"
+                android:textSize="16sp" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

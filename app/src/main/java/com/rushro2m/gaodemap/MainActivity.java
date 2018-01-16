@@ -31,6 +31,7 @@ import com.rushro2m.gaodemap.mapinteraction.ScreenShotActivity;
 import com.rushro2m.gaodemap.mapinteraction.UISettingActivity;
 import com.rushro2m.gaodemap.mapinteraction.ZoomActivity;
 import com.rushro2m.gaodemap.mapmarker.InfoWindowActivity;
+import com.rushro2m.gaodemap.mapmarker.LocationModeSourceActivity;
 import com.rushro2m.gaodemap.mapmarker.LocationModeSourceActivity_Old;
 import com.rushro2m.gaodemap.mapmarker.MarkerActivity;
 import com.rushro2m.gaodemap.mapmarker.MarkerAnimationActivity;
@@ -66,6 +67,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
     }
+
     private void checkPermissions(String... permissions) {
         //获取权限列表
         List<String> needRequestPermissonList = findDeniedPermissions(permissions);
@@ -77,6 +79,7 @@ public class MainActivity extends AppCompatActivity {
                     PERMISSON_REQUESTCODE);
         }
     }
+
     /**
      * 获取权限集中需要申请权限的列表
      *
@@ -262,6 +265,10 @@ public class MainActivity extends AppCompatActivity {
 
             case R.id.locationOldMap://5.0.0之前的Location实现
                 startActivity(new Intent(this, LocationModeSourceActivity_Old.class));
+                break;
+
+            case R.id.locationMap://5.0.0之后的Location实现
+                startActivity(new Intent(this, LocationModeSourceActivity.class));
                 break;
         }
     }
