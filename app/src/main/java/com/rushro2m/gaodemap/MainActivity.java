@@ -37,6 +37,7 @@ import com.rushro2m.gaodemap.mapmarker.LocationModeSourceActivity_Old;
 import com.rushro2m.gaodemap.mapmarker.MarkerActivity;
 import com.rushro2m.gaodemap.mapmarker.MarkerAnimationActivity;
 import com.rushro2m.gaodemap.mapmarker.MarkerClickActivity;
+import com.rushro2m.gaodemap.mapsearch.PoiKeywordSearchActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -274,6 +275,12 @@ public class MainActivity extends AppCompatActivity {
 
             case R.id.customLocationMap://Location小蓝点自定义功能
                 startActivity(new Intent(this, CustomLocationActivity.class));
+                break;
+
+
+//---------------------------------------------------------------------------------------------------------
+            case R.id.poiKeywordSearchMap://Location小蓝点自定义功能
+                startActivity(new Intent(this, PoiKeywordSearchActivity.class));
                 break;
         }
     }

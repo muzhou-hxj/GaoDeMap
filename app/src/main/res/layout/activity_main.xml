@@ -242,6 +242,22 @@
                 android:padding="3dp"
                 android:text="Location小蓝点自定义功能"
                 android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="查询地图数据"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/poiKeywordSearchMap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="mapMethod"
+                android:padding="3dp"
+                android:text="Marker功能"
+                android:textSize="16sp" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
